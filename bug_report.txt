@@ -1,0 +1,99 @@
+----- 05/16/23 10:05:13 -----
+Traceback (most recent call last):
+  File "D:\Chess Game using Python\gui.py", line 169, in play_as
+    game = make_AI_move(game, color)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Chess Game using Python\gui.py", line 143, in make_AI_move
+    new_game = chess.make_move(game, chess.get_AI_move(game, AI_SEARCH_DEPTH))
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Chess Game using Python\chess.py", line 1316, in get_AI_move
+    if find_in_book(game):
+       ^^^^^^^^^^^^^^^^^^
+  File "D:\Chess Game using Python\chess.py", line 1402, in find_in_book
+    book_file = open("book.txt")
+                ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'book.txt'
+
+Playing as BLACK:
+	
+	rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+-----------------------------
+
+----- 05/16/23 10:05:29 -----
+Traceback (most recent call last):
+  File "D:\Chess Game using Python\gui.py", line 169, in play_as
+    game = make_AI_move(game, color)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Chess Game using Python\gui.py", line 143, in make_AI_move
+    new_game = chess.make_move(game, chess.get_AI_move(game, AI_SEARCH_DEPTH))
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Chess Game using Python\chess.py", line 1316, in get_AI_move
+    if find_in_book(game):
+       ^^^^^^^^^^^^^^^^^^
+  File "D:\Chess Game using Python\chess.py", line 1402, in find_in_book
+    book_file = open("book.txt")
+                ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'book.txt'
+
+Playing as BLACK:
+	
+	rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+-----------------------------
+
+----- 05/16/23 10:05:33 -----
+Traceback (most recent call last):
+  File "D:\Chess Game using Python\gui.py", line 169, in play_as
+    game = make_AI_move(game, color)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Chess Game using Python\gui.py", line 143, in make_AI_move
+    new_game = chess.make_move(game, chess.get_AI_move(game, AI_SEARCH_DEPTH))
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Chess Game using Python\chess.py", line 1316, in get_AI_move
+    if find_in_book(game):
+       ^^^^^^^^^^^^^^^^^^
+  File "D:\Chess Game using Python\chess.py", line 1402, in find_in_book
+    book_file = open("book.txt")
+                ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'book.txt'
+
+Playing as BLACK:
+	
+	rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+-----------------------------
+
+----- 05/16/23 10:05:39 -----
+Traceback (most recent call last):
+  File "D:\Chess Game using Python\gui.py", line 169, in play_as
+    game = make_AI_move(game, color)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Chess Game using Python\gui.py", line 143, in make_AI_move
+    new_game = chess.make_move(game, chess.get_AI_move(game, AI_SEARCH_DEPTH))
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Chess Game using Python\chess.py", line 1316, in get_AI_move
+    if find_in_book(game):
+       ^^^^^^^^^^^^^^^^^^
+  File "D:\Chess Game using Python\chess.py", line 1402, in find_in_book
+    book_file = open("book.txt")
+                ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'book.txt'
+
+Playing as BLACK:
+	
+	rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+-----------------------------
+
+----- 08/16/23 20:42:05 -----
+Traceback (most recent call last):
+  File "d:\Chess Game using Python\gui.py", line 183, in play_as
+    arriving_square = coord2str(event.pos, color)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Chess Game using Python\gui.py", line 86, in coord2str
+    return chess.FILES[file_index] + chess.RANKS[rank_index]
+                                     ~~~~~~~~~~~^^^^^^^^^^^^
+IndexError: list index out of range
+
+Playing as WHITE:
+	
+	rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+-----------------------------
+
